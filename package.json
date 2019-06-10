@@ -1,0 +1,22 @@
+{
+  "name": "phoenix",
+  "version": "0.1.0",
+  "description": "Official Website for Phoenix Club LNMIIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvatarSenju/Phoenix-Website.git"
+  },
+  "keywords": [
+    "Phoenix"
+  ],
+  "author": "Anushrut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvatarSenju/Phoenix-Website/issues"
+  },
+  "homepage": "https://github.com/AvatarSenju/Phoenix-Website#readme"
+}
