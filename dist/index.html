@@ -4,9 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Phoenix</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>The Phoenix Club</title>
   </head>
-  <body>
-    Hello
+
+  <body id="bg-img">
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <div class="logo">
+        <a href="https://www.lnmiit.ac.in/"
+          ><img src="../dist/img/lnmiit.png" alt=""
+        /></a>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait">
+            <!-- <img src="./img/phoenix.png" alt="" /> -->
+          </div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item current">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="team.html" class="nav-link">
+              The Team
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              Events
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              How To Reach Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <h1 class="lg-heading">
+        <!-- Phoenix -->
+        <div class="brand">
+          <img src="./img/logo.svg" alt="" />
+        </div>
+      </h1>
+      <h2 class="sm-heading">
+        <div class="desc">
+          <p>
+            Endless endeavor to bring out the feeling of togetherness among the
+            students of LNMIIT and to spread the culture and amazing world of
+            Robotics, IoT and mcuh more. Be a part of the evergrowing plethora
+            of events and projects.
+          </p>
+        </div>
+        <p>
+          <!-- Be a part of the evergrowing plethora of events and projects. You can
+          participate in our events and submit your projects on the portal. -->
+        </p>
+      </h2>
+      <div class="icons">
+        <a href="https://www.facebook.com/phoenix.lnmiit/">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="mailto:phoenixclub@lnmiit.ac.in">
+          <i class="fas fa-envelope fa-2x"></i>
+        </a>
+
+        <a href="https://github.com/lnmiitPhoenix">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+
+    <script src="js/easy_background.js"></script>
+    <script>
+      easy_background(
+        "body",
+
+        {
+          slide: [
+            "img/plinth_19/drone.jpg",
+            "img/plinth_19/lfr.jpg",
+            "img/plinth_19/nitro.jpg",
+            "img/plinth_19/RB_war.jpg",
+            "img/plinth_19/soccer.jpg"
+          ],
+
+          delay: [5000, 5000, 5000, 5000, 5000]
+        }
+      );
+    </script>
   </body>
 </html>

@@ -4,7 +4,7 @@
   "description": "Official Website for Phoenix Club LNMIIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AvatarSenju/Phoenix-Website/issues"
   },
-  "homepage": "https://github.com/AvatarSenju/Phoenix-Website#readme"
+  "homepage": "https://github.com/AvatarSenju/Phoenix-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
