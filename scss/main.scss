@@ -1,6 +1,6 @@
 @import "config";
 @import "menu";
-
+@import "team";
 * {
   box-sizing: border-box;
 }
@@ -23,17 +23,17 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
+  text-align: center;
 
   &.lg-heading {
     font-size: 6rem;
   }
+}
 
-  &.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.1);
-    text-align: center;
-  }
+.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: rgba(lighten($primary-color, 2), 0.5);
 }
 
 a {
@@ -59,7 +59,6 @@ main {
   .icons {
     margin-top: 1rem;
     float: right;
-
     a {
       padding: 0.4rem;
       @include easeOut;

@@ -25,6 +25,19 @@
     }
   }
 
+  .members {
+    grid-template-columns: 1fr;
+  }
+  .robotics {
+    grid-template-columns: 1fr;
+  }
+  .area {
+    grid-template-columns: 1fr;
+  }
+  .profile {
+    grid-template-columns: 1fr;
+  }
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -93,6 +106,19 @@
       margin-top: 1rem;
       font-size: 5rem;
     }
+  }
+
+  .members {
+    grid-template-columns: 1fr;
+  }
+  .robotics {
+    grid-template-columns: 1fr;
+  }
+  .area {
+    grid-template-columns: 1fr;
+  }
+  .profile {
+    grid-template-columns: 1fr;
   }
 
   .projects {
