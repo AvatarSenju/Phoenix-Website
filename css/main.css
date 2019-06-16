@@ -145,12 +145,8 @@ body {
   transition: all 0.5s ease-out; }
   body#bg-img {
     background: url(../img/plinth_19/nitro.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden; }
+    height: 100%; }
     body#bg-img:after {
       content: "";
       position: fixed;
