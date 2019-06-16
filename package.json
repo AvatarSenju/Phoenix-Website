@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/AvatarSenju/Phoenix-Website/issues"
   },
-  "homepage": "https://github.com/AvatarSenju/Phoenix-Website#readme",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
